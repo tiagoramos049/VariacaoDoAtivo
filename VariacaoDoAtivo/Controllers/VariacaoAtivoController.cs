@@ -21,15 +21,7 @@ namespace VariacaoDoAtivo.Controllers
         {
             _dao = dao; _voivoRepository = variacaoAtivoRepository;
         }
-        //[HttpGet]
-        //public IActionResult GetAll()
-        //{
-        //    var list = _voivoRepository.GetAll();
-
-        //    return View(list);
-        //}
-
-
+        
         [HttpGet]
         public async Task<IActionResult> GetUltimos30Dias()
         {
