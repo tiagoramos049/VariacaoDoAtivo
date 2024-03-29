@@ -27,6 +27,12 @@ namespace VariacaoDoAtivo.Controllers
             return Ok();
         }
         
+        [HttpPost]
+        public IActionResult Post()
+        {
+            return Ok();
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetUltimos30Dias()
         {
